@@ -19,7 +19,8 @@ end
   it { should respond_to(:admin) }
   it { should respond_to(:microposts) }
   it { should respond_to(:feed) }
-  it { should be_valid }
+  it { should respond_to(:relationships) }
+ it { should be_valid }
   
   it { should_not be_admin }
 
